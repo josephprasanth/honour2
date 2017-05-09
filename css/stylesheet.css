@@ -696,6 +696,10 @@ legend p {
    margin: auto;
 }
 
+.cornflowerblue {
+	color: cornflowerblue;
+}
+
 /* Keyframes */
 
 @keyframes pulse {
