@@ -71,6 +71,13 @@ a#readMore  {
 	font-size: 1.22em;
 }
 
+a#readMoreSmall  {
+  color: cornflowerblue;
+  font-weight: bold;
+	font-size: 0.8em;
+	text-align: right;
+}
+
 .hr {
 	background: #ccc;
 	height: 1px;
@@ -425,7 +432,11 @@ header .flags img {
 
 .home-headline-figure.right {
 	border-left: 1px solid #ccc;
-	padding: 40px 0 20px 40px;
+	padding: 0px 0 20px 40px;
+}
+
+.home-headline-figure.right p {
+	text-align: center;
 }
 
 .home-headline-text h3 {
@@ -438,6 +449,10 @@ header .flags img {
 	border-top: 1px solid #ccc;
 	margin-top: 176px;
 	padding: 40px;
+}
+
+.home-news-figure p {
+	font-size: 1.3em;
 }
 
 /* Article */
@@ -535,6 +550,70 @@ header .flags img {
 	margin: 0;
 }
 
+/* Jämställdhet */
+.jamstalldhet-row {
+	height: 26.4vw;
+}
+
+.jamstalldhet-row .carousel-caption {
+	bottom: -50px;
+}
+
+.jamstalldhet-row img {
+	width: 100%;
+}
+
+.jamstalldhet-list {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.jamstalldhet-item {
+	border: 1px solid #eee;
+	margin-bottom: 5px;
+	flex: 1;
+	font-weight: bold;
+	text-align: center;
+	-webkit-box-shadow: 0px 2px 3px 0px #ccc;
+	-moz-box-shadow: 0px 2px 3px 0px #ccc;
+	box-shadow: 0px 2px 3px 0px #ccc;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.article-jamstalldhet {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+.article-jamstalldhet h2 {
+	margin-top: 0;
+	text-align: center;
+}
+
+.article-jamstalldhet a {
+	color: cornflowerblue;
+	font-weight: bold;
+}
+.article-jamstalldhet a:hover {
+	color: #000;
+}
+
+.article-jamstalldhet i {
+	color: cornflowerblue;
+}
+
+.article-jamstalldhet .author {
+	font-size: 0.8em;
+	margin-bottom: 10px;
+	margin-top: -18px;
+	text-align: center;
+}
+
 /* Contact */
 
 .contact-form {
@@ -596,6 +675,15 @@ legend p {
 	font-size: 0.7em;
 	right: 328px;
 	top: 627px;
+	position: absolute;
+	transform: rotate(270deg);
+	transform-origin: right top 0;
+}
+
+.vertical-text3 {
+	font-size: 0.7em;
+	right: 12px;
+	top: 358px;
 	position: absolute;
 	transform: rotate(270deg);
 	transform-origin: right top 0;
