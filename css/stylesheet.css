@@ -438,6 +438,10 @@ header .flags img {
 .home-headline-figure.right p {
 	text-align: center;
 }
+.home-headline-figure.right h2 {
+	text-align: center;
+}
+
 
 .home-headline-text h3 {
 	font-size: 1.3em;
